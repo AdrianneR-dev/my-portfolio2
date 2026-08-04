@@ -100,7 +100,7 @@ export default function Experience() {
           {filteredTimeline.map((item) => (
             <div key={item.id} className="relative group">
               {/* Bullet indicator */}
-              <div className="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full border-2 border-blue-500 bg-white dark:bg-zinc-900 group-hover:scale-125 transition-transform duration-200" />
+              <div className="absolute -left-7.75 top-1.5 w-4 h-4 rounded-full border-2 border-blue-500 bg-white dark:bg-zinc-900 group-hover:scale-125 transition-transform duration-200" />
               
               <span className="text-xs font-mono text-blue-600 dark:text-blue-400 font-bold tracking-wider uppercase">
                 {item.period}
