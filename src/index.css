@@ -59,15 +59,24 @@ body {
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;         /* Keeps content readable on ultra-wide screens */
+  margin: 0 auto;            /* Centers the container */
+  padding-inline: 1.5rem;    /* Adds space on the left and right sides (24px) */
   text-align: center;
-  border-inline: 1px solid var(--border);
+  border-inline: none;       /* Removes the vertical side lines */
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+}
+
+#root {
+  padding-inline: 1rem;
+  
+  @media (min-width: 768px) {
+    padding-inline: 2.5rem;
+  }
 }
 
 h1,
