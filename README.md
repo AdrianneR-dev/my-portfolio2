@@ -1,8 +1,14 @@
 Adrianne Rhodes - July 2026
 
+Project Title: MyPortfolio2
+
 This application uses React JS + Vite to create a website. 
 
+Live Link: https://my-portfolio2-nine-jet.vercel.app/
+
 The purpose of this project is to display a digital portfolio of my previous work that was created while participating in the Mississippi Coding Academy. 
+
+Future Improvements: In my opinion, the site could have a different layout for the projects page. Each project may have a thumbnail image of the site added as a preview before users click on it.
 
 I will go further in depth about this portfolio project below:
 
