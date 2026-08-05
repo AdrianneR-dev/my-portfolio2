@@ -32,8 +32,8 @@ export default function Projects() {
               <h3 className="text-xl font-semibold mb-2 truncate text-blue-600 dark:text-blue-400">
                 <a href={repo.html_url} target="_blank" rel="noreferrer" className="hover:underline">{repo.name}</a>
               </h3>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 h-12 overflow-hidden line-clamp-2">
-                {repo.description || "No description provided."}
+              <p className="text-sm text-zinc-600 dark:text-zinc-400 mb-4 h-auto">
+              {repo.description || "No description provided."}
               </p>
             </div>
             <div className="flex items-center gap-4 text-xs font-mono">
