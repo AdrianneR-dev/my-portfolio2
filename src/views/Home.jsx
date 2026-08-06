@@ -1,5 +1,6 @@
 import React from 'react';
 import useTheme from '../components/useTheme';
+import profileImg from '../assets/profile.jpg';
 
 export default function Home() {
   const { isDark, toggleTheme } = useTheme();
@@ -27,6 +28,24 @@ export default function Home() {
       >
         Toggle {isDark ? 'Light' : 'Dark'} Mode
       </button>
+
+      <section className="w-full max-w-4xl mx-auto py-20 px-6 flex flex-col md:flex-row items-center gap-10 text-left">
+        <img
+          src={profileImg}
+          alt="Portrait of Adrianne Rhodes"
+          className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
+        />
+        <div>
+          <h2 className="text-3xl font-bold mb-4">About Me</h2>
+          <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            I'm Adrianne, a Full Stack Developer who loves turning ideas into
+            clean, functional web applications. When I'm not coding, you'll
+            find me learning new spoken languages as well as computer languages. 
+            I have experience with game design, game design graphics, game 
+            development and front-end web development.
+          </p>
+        </div>
+      </section>
     </section>
   );
 }
