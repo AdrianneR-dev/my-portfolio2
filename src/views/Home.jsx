@@ -34,7 +34,7 @@ export default function Home() {
         <img
           src={profileImg}
           alt="Portrait of Adrianne Rhodes"
-          className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink=0"
+          className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
         />
         <div>
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
@@ -47,15 +47,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full max-w-4xl mx-auto py-20 px-6 flex flex-col md:flex-row-reverse items-center gap-10 text-left">
+      <section className="w-full max-w-4xl mx-auto mt-12 py-20 px-6 flex flex-col md:flex-row-reverse items-center gap-10 text-left">
         <a
           href="https://adrianner-dev.github.io/TheDigitalStoreFrontCapstone/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-shrink=0 block rounded-xl overflow-hidden shadow-lg w-full md:w-80 hover:shadow-xl transition-shadow"
+          className="flex-shrink-0 block rounded-xl overflow-hidden shadow-lg w-full md:w-80 hover:shadow-xl transition-shadow"
         >
           <img
-            src="./assets/digital-storefront-thumbnail.gif"
+            src={digitalStorefrontThumb}
             alt="Digital Store-front Capstone homepage preview"
             className="w-full h-auto"
           />
