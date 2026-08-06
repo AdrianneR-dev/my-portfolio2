@@ -1,6 +1,7 @@
 import React from 'react';
 import useTheme from '../components/useTheme';
 import profileImg from '../assets/profile.jpg';
+import digitalStorefrontThumb from '../assets/digital-storefront-thumbnail.gif';
 
 export default function Home() {
   const { isDark, toggleTheme } = useTheme();
@@ -40,10 +41,31 @@ export default function Home() {
           <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
             I'm Adrianne, a Full Stack Developer who loves turning ideas into
             clean, functional web applications. When I'm not coding, you'll
-            find me learning new spoken languages as well as computer languages. 
-            I have experience with game design, game design graphics, game 
-            development and front-end web development. I have designed a website
-            for an e-commerce business named Salvg Beauty LLC.
+            find me exploring new frameworks, contributing to side projects,
+            or refining my craft one commit at a time.
+          </p>
+        </div>
+      </section>
+
+      <section className="w-full max-w-4xl mx-auto py-20 px-6 flex flex-col md:flex-row-reverse items-center gap-10 text-left">
+        <a
+          href="https://adrianner-dev.github.io/TheDigitalStoreFrontCapstone/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-shrink-0 block rounded-xl overflow-hidden shadow-lg w-full md:w-80 hover:shadow-xl transition-shadow"
+        >
+          <img
+            src="./assets/digital-storefront-thumbnail.gif"
+            alt="Digital Store-front Capstone homepage preview"
+            className="w-full h-auto"
+          />
+        </a>
+        <div>
+          <h2 className="text-3xl font-bold mb-4">Featured Projects</h2>
+          <h3 className="text-xl font-semibold mb-2">Digital Store-front Capstone</h3>
+          <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            For this capstone project, I created a digital storefront for my
+            e-commerce beauty brand, Salvg (pronounced Salvage) Beauty.
           </p>
         </div>
       </section>
