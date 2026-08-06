@@ -27,7 +27,7 @@ export default function Projects() {
       {/* Implicit Grid layout handles all viewport sizes without media query overload */}
       <div className="grid gap-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
         {filteredRepos.map((repo) => (
-          <div key={repo.id} className="p-6 border border-zinc-200 dark:border-zinc-800 rounded-xl flex flex-col justify-between hover:shadow-md transition">
+          <div key={repo.id} className="p-6 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-xl flex flex-col justify-between transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl hover:shadow-zinc-400/40 dark:hover:shadow-black/60 hover:border-zinc-300 dark:hover:border-zinc-600">
             <div>
               <h3 className="text-xl font-semibold mb-2 truncate text-blue-600 dark:text-blue-400">
                 <a href={repo.html_url} target="_blank" rel="noreferrer" className="hover:underline">{repo.name}</a>
