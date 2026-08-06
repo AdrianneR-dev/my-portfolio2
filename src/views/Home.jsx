@@ -42,7 +42,8 @@ export default function Home() {
             clean, functional web applications. When I'm not coding, you'll
             find me learning new spoken languages as well as computer languages. 
             I have experience with game design, game design graphics, game 
-            development and front-end web development.
+            development and front-end web development. I have designed a website
+            for an e-commerce business named Salvg Beauty LLC.
           </p>
         </div>
       </section>
