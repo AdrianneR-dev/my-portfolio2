@@ -34,7 +34,7 @@ export default function Home() {
         <img
           src={profileImg}
           alt="Portrait of Adrianne Rhodes"
-          className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink-0"
+          className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg flex-shrink=0"
         />
         <div>
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
@@ -52,7 +52,7 @@ export default function Home() {
           href="https://adrianner-dev.github.io/TheDigitalStoreFrontCapstone/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-shrink-0 block rounded-xl overflow-hidden shadow-lg w-full md:w-80 hover:shadow-xl transition-shadow"
+          className="flex-shrink=0 block rounded-xl overflow-hidden shadow-lg w-full md:w-80 hover:shadow-xl transition-shadow"
         >
           <img
             src="./assets/digital-storefront-thumbnail.gif"
