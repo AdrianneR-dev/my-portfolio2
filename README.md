@@ -1,6 +1,6 @@
 Adrianne Rhodes - July 2026
 
-Project Title: MyPortfolio2
+Project Title: MyPortfolio
 
 This application uses React JS + Vite to create a website. 
 
