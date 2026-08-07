@@ -16,9 +16,6 @@ export default function Navbar() {
     <nav className="border-b border-zinc-200 dark:border-zinc-800 sticky top-0 bg-white/80 dark:bg-zinc-900/80 backdrop-blur z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          {/* <div className="flex-shrink=0 font-bold text-lg">
-             <NavLink to="/">DevPortfolio</NavLink>
-          </div> */}
           
           <div className="flex items-center gap-4">
            <NavLink to="/" className={linkClass}>Home</NavLink>

@@ -8,6 +8,7 @@ export default function Home() {
 
   return (
     <section className="flex flex-col items-center justify-center text-center py-20 animate-fade-in">
+      <div className="flex flex-col gap-2">
       <h1 className="text-5xl font-extrabold tracking-tight mb-4">
         Hi, I'm <span className="text-blue-600 dark:text-blue-400">Adrianne Rhodes</span>
       </h1>
@@ -20,6 +21,7 @@ export default function Home() {
             {tech}
           </span>
         ))}
+      </div>
       </div>
         <p></p>
       <button 
