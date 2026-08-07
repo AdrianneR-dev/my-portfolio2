@@ -16,7 +16,7 @@ export default function Home() {
       </p>
       
       <div className="flex flex-wrap gap-4 justify-center mb-12">
-        {['React', 'Node.js', 'TailwindCSS', 'JavaScript', 'Git'].map((tech) => (
+        {['HTML', 'CSS', 'React', 'Node.js', 'TailwindCSS', 'JavaScript', 'Git'].map((tech) => (
           <span key={tech} className="px-4 py-2 bg-zinc-100 dark:bg-zinc-800 rounded-full font-mono text-sm">
             {tech}
           </span>
