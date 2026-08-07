@@ -143,3 +143,5 @@ Console warnings: 0.
 Infinite re-render loops: none detected on any route — every route's DOM fully settles (0 mutations) once effects and the mock fetch resolve.
 
 Confirmed: zero console errors and zero infinite re-render loops across all four routes, under a production-equivalent build compiled from the project's actual source, tested with React StrictMode enabled.
+
+Disclaimer: AI was used to aid in the creation of this application; specficially Google Gemini AI and Claude AI.
