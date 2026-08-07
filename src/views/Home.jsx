@@ -14,7 +14,6 @@ export default function Home() {
       <p className="text-xl max-w-2xl mb-8 text-zinc-600 dark:text-zinc-400">
         A passionate Full Stack Developer dedicated to building high-performance web applications.
       </p>
-      <p></p>
       <div className="flex flex-wrap gap-4 justify-center mb-12">
         {['HTML', 'CSS', 'React', 'Node.js', 'TailwindCSS', 'JavaScript', 'Git'].map((tech) => (
           <span key={tech} className="px-4 py-2 bg-zinc-100 dark:bg-zinc-800 rounded-full font-mono text-sm">
@@ -65,7 +64,8 @@ export default function Home() {
           <h3 className="text-xl font-semibold mb-2">Digital Store-front Capstone</h3>
           <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
             For this capstone project, I created a digital storefront for my
-            e-commerce beauty brand, Salvg (pronounced Salvage) Beauty.
+            e-commerce beauty brand, Salvg (pronounced Salvage) Beauty.This
+            is a live demo. You can not purchase anything from this site.
           </p>
         </div>
       </section>
