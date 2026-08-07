@@ -60,11 +60,11 @@ body {
 
 #root {
   width: 100%;
-  max-width: 1200px;         /* Keeps content readable on ultra-wide screens */
-  margin: 0 auto;            /* Centers the container */
-  padding-inline: 1.5rem;    /* Adds space on the left and right sides (24px) */
+  max-width: 1200px;         
+  margin: 0 auto;            
+  padding-inline: 1.5rem;    
   text-align: center;
-  border-inline: none;       /* Removes the vertical side lines */
+  border-inline: none;       
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -120,5 +120,5 @@ code {
   font-size: 15px;
   line-height: 135%;
   padding: 4px 8px;
-  background: var(--code-bg);
+  background: var(--code-bg); 
 }
