@@ -14,7 +14,7 @@ export default function Home() {
       <p className="text-xl max-w-2xl mb-8 text-zinc-600 dark:text-zinc-400">
         A passionate Full Stack Developer dedicated to building high-performance web applications.
       </p>
-      
+      <p></p>
       <div className="flex flex-wrap gap-4 justify-center mb-12">
         {['HTML', 'CSS', 'React', 'Node.js', 'TailwindCSS', 'JavaScript', 'Git'].map((tech) => (
           <span key={tech} className="px-4 py-2 bg-zinc-100 dark:bg-zinc-800 rounded-full font-mono text-sm">
@@ -22,7 +22,7 @@ export default function Home() {
           </span>
         ))}
       </div>
-
+        <p></p>
       <button 
         onClick={toggleTheme}
         className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
