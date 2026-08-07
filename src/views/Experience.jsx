@@ -7,8 +7,8 @@ export default function Experience() {
     {
       id: 1,
      role: "Full Stack Developer",
-      company: "Pixel Craft Studio",
-      period: "2022 - 2024",
+      company: "Mississippi Coding Academy",
+      period: "January 2026 - Present",
       type: "work",
       description: "Designed, tested, and shipped fluid client portals using Node.js, Express, and fully controlled React forms.",
     },
