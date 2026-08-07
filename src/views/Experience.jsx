@@ -78,7 +78,7 @@ export default function Experience() {
           <h3 className="text-xl font-semibold">Interactive Timeline</h3>
           
           {/* Tab Filters */}
-          <div className="flex bg-zinc-100 dark:bg-zinc-800 p-1 rounded-lg text-sm self-stretch sm:self-auto gap-1">
+          <div className="flex gap-1 bg-zinc-100 dark:bg-zinc-800 p-1 rounded-lg text-sm self-stretch sm:self-auto">
             {['all', 'work', 'education'].map((tab) => (
               <button
                 key={tab}
