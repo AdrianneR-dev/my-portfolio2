@@ -66,6 +66,7 @@ export default function Home() {
             For this capstone project, I created a digital storefront for my
             e-commerce beauty brand, Salvg (pronounced Salvage) Beauty.This
             is a live demo. You can not purchase anything from this site.
+            Click the gif to visit.
           </p>
         </div>
       </section>
